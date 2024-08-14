@@ -9,3 +9,5 @@ def display_progress(ind, tot, limiter):
                 bar[f] = "x"
         clear_output(wait=True)
         print("[" + "".join(bar) + "]")
+    elif (ind) == tot: 
+        print("[" + "".join(["x" for x in range(10)]) + "]")
